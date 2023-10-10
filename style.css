@@ -88,7 +88,7 @@
     justify-content:center;
     text-align:center;
     color:white;
-    background-image:radial-gradient(circle farthest-corner at bottom left,#fff9e8, #0175cd);
+    background-image:radial-gradient(circle farthest-side at  left,#fbf9f4, #0175cd);
     background-size: cover;
     background-repeat: no-repeat;
 
