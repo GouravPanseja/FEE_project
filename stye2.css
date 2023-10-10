@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
 
 * {
   margin: 0;
@@ -11,10 +13,9 @@
 .cursor{
   cursor:pointer;
 }
-.btn:active{
-  background: black;
 
-
+.btn:hover{
+  background: #11200a;
 }
 
 .hr {
@@ -364,6 +365,7 @@ ul{
 #part5_left p{
   font-size:0.9rem;
   margin-top:20px;
+  line-height:1.5rem;
   font-weight:300;
   color:rgb(77, 77, 77);
 }
@@ -440,7 +442,21 @@ ul{
   position:relative;
   bottom:12rem;
   z-index:-1;
+  color:white;
 
+}
+#part6_inner{
+  height:90%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  
+}
+.rvw{
+  width:20rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 #part7_cont{
@@ -451,3 +467,34 @@ ul{
   bottom:30.5rem;
 }
 
+
+#rating{
+  margin-bottom:5rem;
+}
+.rvw #rating{
+  margin-bottom:1.2rem;
+  text-align: center;
+
+}
+
+.rvw p{
+  font-family:'Montserrat', sans-serif;
+  line-height:25px;
+  font-weight:100;
+  text-align:center;
+}
+
+.hr2{
+  height:1px;
+  width:10rem;
+  background: rgba(255,255,255,0.7);
+  margin-top:1.5rem;
+
+}
+
+.span_speaker img{
+  width:10rem;
+  border-radius:0.4rem;
+  margin-top:1rem;
+  height:40px;
+}
