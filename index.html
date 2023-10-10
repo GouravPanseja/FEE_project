@@ -1,129 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div id="screen">
-
-        <div id="sc_img">
-            <div id="logo">
-                <img src="logo.png">
-            </div>
-
-            <!-- <div id="terms">
-                <div id="i_terms">
-                    <h2>Our Terms&Conditios</h2>
-                    <div id="hr"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae nam, corporis rem distinctio sunt ad commodi blanditiis temporibus, quod tempore quis? Eum voluptas similique earum amet facilis veniam omnis.</p>
-                </div>
-            </div> -->
-
-
-
-
-            <div id="text">
-                To continue,
-                <span style="display:block"></span>
-                sign in to 
-                <span style="display:block"></span>
-                <b>Querify</b>
-            </div>
-            
-           
-
+    <link href="stye2.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <banner id="banner"
+      >We are launching our Pro Membership soon! Stay Tuned
+      <i class="fa-solid fa-star fa-beat-fade" style="color: #ffff28"></i
+      ><i class="fa-solid fa-star fa-beat-fade" style="color: #ffff28"></i
+      ><i class="fa-solid fa-star fa-beat-fade" style="color: #ffff28"></i>
+    </banner>
+    <nav>
+      <div id="nav_1">
+        <div class="nav_elem" id="nav_logo">
+          <b>QUERIFY</b>
         </div>
 
-        <div id="log" >
-
-
-            <div id="i_log">
-
-                <div id="acc">
-
-                    <div id="i_acc">
-                        <a href="page2.html" target="#"><button> <div><img src="apple_logo.jpeg"> <span>Continue with Apple</span></div></button></a>
-                        <a href="page2.html" target="#"><button> <div><img src="logo_google.png"> <span>Continue with Google</span></div></button></a>
-                        <a href="page2.html" target="#"><button> <div><img src="logo_fb.png"> <span>Continue with Facebook</span></div></button></a>
-
-                    </div>
-                </div>
-
-                <div id="hr">
-
-                </div>
-               <div id="hr_or">or</div>
-
-
-               <div id="inp">
-
-                <h2>Enter your Details</h2>
-
-                <div id="i_inp">
-                    <form action="page2.html"> <div class="info">
-                    <label for="full_name">Full Name</label>
-                    <input type="text"  id="full_name" required class="focus" placeholder="Enter your full name">
-                </div>
-
-                <div class="info">
-                    <label for="branch">Branch</label>
-                    <input type="text"  id="branch" required class="focus" placeholder="Enter your branch">
-                </div>
-
-                <div class="info">
-                    <label for="passing_year">Grad Year</label>
-                    <input type="number"  id="passing_year" required class="focus" placeholder="Enter the grad">
-                </div>
-                     
-
-                        
-                    <div class="info" id="div_cond">
-                        <div id="terms">
-                            <div id="i_terms">
-                                <h2>Terms&Conditios</h2>
-                                <div id="hr"></div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae nam, corporis rem distinctio sunt ad commodi blanditiis temporibus, quod tempore quis? Eum voluptas similique earum amet facilis veniam omnis.</p>
-                            </div>
-                        </div>
-                        <label for="cond">Do you agree to our T&Cs,Here</label>
-                        <input type="checkbox" id="cond" required>
-                    </div>        
-    
-                    
-                    
-
-
-                    <input type="submit" id="sub" value="Continue">
-
-                 
-                    
-                    </form>
-                   
-                </div>
-                
-                
-                
-
-               </div>
-
-
-
-
-
-
-            </div>
-           
-
-            
-
+        <a href="#hero" class="nav1_elem hover">Home</a>
+        <a href="#part3" class="nav1_elem hover" id="surveys">Services</a>
+        <div id="surveys_model">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          delectus. Dolorem delectus repudiandae praesentium consequatur
+          reiciendis commodi quasi? Obcaecati eos sequi provident, ullam
+          exercitationem blanditiis nemo quas qui modi corporis.
         </div>
+        <a href="#cutomers" class="nav1_elem hover">Our Customers</a>
+        <a href="#About Us" class="nav1_elem hover">About Us</a>
+      </div>
 
+      <div id="nav_2">
+        <a href="#info" class="nav2_elem hover">Contact Us</a>
+        <a href="#cutomers" class="nav2_elem hover">+91-9988776655</a>
+        <button id="btn_log_in" class="nav2_elem hover btn">
+          <a href="#log_in_model">Log in</a>
+        </button>
+      </div>
+    </nav>
+
+    <div id="log_in_model">
+      <div id="log_inner">
+        <a id="cross" href="#"><i class="fa-solid fa-circle-xmark" style="color: #000000;" id="x_mark"></i></a>
         
+        <h3>Log In</h2>
+          <form>
+            <div class="log_input_div">
+            <label for="first_log">Email / Username  </label>
+            <input type="email" name="input"  class="log_in_input" id="first_log">
+          </div>
+          <div class="log_input_div">
+            <label for="second_log">Password</label>
+            <input type="password" name="input"  class="log_in_input" id="second_log">
+          </div>
+          <button id="btn_log"><a href="page2.html">Done</a></button>
+        </form>
+          
+        
+      
+        </div>
     </div>
-    
-</body>
+
+    <div class="hr"></div>
+
+    <div id="hero">
+      <div id="hero_dsn">
+        <div>
+          <div>
+             <h1>Querify</h1>
+             <h2>Insightful Journeys,</h2>
+             <h2>Where Questions Shape Understanding</h2>
+          </div>
+
+          <div>Excelent 5 star rating <span>(Based on 5021 Customer reviews)</span></div>
+
+          <p>Take our survey and be part of shaping meaningful insights.</p>
+          <button class="btn"><a href="page3.html">Take the Survey Now</a></button>
+         
+        </div>
+
+  
+      </div>
+    </div>
+
+    <div id="part3">
+      <h2 id="part3_h">Our Services</h2>
+
+      <div id="part3_container">
+        <div id="colm1">
+          <h2 class="part3_sh">Surveys</h2>
+
+          <ul>
+            <li>Educational</li>
+            <li>Employee Engagement</li>
+            <li>Market Research</li>
+            <li>Healthcare Surveys</li>
+            <li>Govt & Public Surveys</li>
+            <li>Financial surveys</li>
+            <li>Non profit and social services Surveys</li>
+          </ul>
+        </div>
+        <div id="img">
+          <img src="part3_img.png" alt="data" id="part3_img" />
+        </div>
+        <div id="colm2">
+          <h2 class="part3_sh">Pollings</h2>
+          <ul>
+            <li>Political Polls</li>
+            <li>Consumer Opinion Polls</li>
+            <li>Employee Polls</li>
+            <li>Healthcare Polls</li>
+            <li>Education Polls</li>
+            <li>Economic Polls</li>
+            <li>Public Safety and Security Polls</li>
+            <li>Science and Technology Polls</li>
+            <li>Religious and Cultural Polls</li>
+          </ul>
+        </div>
+      </div>
+      <button class="cursor btn">Give it a Try!</button>
+    </div>
+
+    <div id="part4">
+      <h1>Our Flagship Services</h1>
+
+      <div id="part4_container">
+        <div class="card">
+          <div class="imgbox">
+            <img src="card1_img.jpg " />
+          </div>
+          <h2>Educational Surveys</h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus harum dignissimos eos iure commodi, similique,
+              voluptatem ad repellat doloremque voluptatum quod expedita
+              deserunt
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox">
+            <img src="card2_img.jpg" />
+          </div>
+          <h2>Govt Surveys</h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus harum dignissimos eos iure commodi, similique,
+              voluptatem ad repellat doloremque voluptatum quod expedita
+              deserunt
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox">
+            <img src="card3_img.jpg" />
+          </div>
+          <h2>Economic Polls</h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus harum dignissimos eos iure commodi, similique,
+              voluptatem ad repellat doloremque voluptatum quod expedita
+              deserunt
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Part 5-->
+
+    <div id="part5_cont">
+      <div id="part5_left">
+        <h1 class="part5_elem">
+          Querify Cheers: Elevating Experiences, Delighting Users
+        </h1>
+        <p class="part5_elem">
+          At Querify, we take immense pride in the diverse community of voices
+          that contribute to our platform. Our users span various industries,
+          backgrounds, and interests, and their satisfaction is at the heart of
+          what we do.
+        </p>
+        <button class="part5_elem btn">TRY IT FREE</button>
+      </div>
+
+      <div class="logos" id="logo_grp1">
+        <img src="logos/logo1.avif" class="logo_img" />
+        <img src="logos/logo2.jpeg" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp2">
+        <img src="logos/logo3.png" class="logo_img" />
+        <img src="logos/logo4.webp" class="logo_img" />
+        <img src="logos/logo5.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp3">
+        <img src="logos/logo6.png" class="logo_img" />
+        <img src="logos/logo7.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp4">
+        <img src="logos/logo8.png" class="logo_img" />
+        <img src="logos/logo9.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp5">
+        <img src="logos/logo10.png" class="logo_img" />
+        <img src="logos/logo11.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp6">
+        <img src="logos/logo12.png" class="logo_img" />
+        <img src="logos/logo13.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp7">
+        <img src="logos/logo14.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp8">
+        <img src="logos/logo15.png" class="logo_img" />
+      </div>
+      <div class="logos" id="logo_grp9">
+        <img src="logos/logo16.png" class="logo_img" />
+      </div>
+    </div>
+
+    <div id="part6_cont">
+      <h2>Our Happy Customers</h2>
+
+      <table id="part6_inner">
+        <tr id="row1">
+          <th>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #ffeb0f"></i>
+          </th>
+          <th>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #ffeb0f"></i>
+          </th>
+          <th>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star" style="color: #fff700"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #ffeb0f"></i>
+          </th>
+        </tr>
+
+        <tr id="row2">
+          <td>
+            <p>
+              "Whether it's market research or gauging public opinion, Querify
+              has become our go-to polling platform. The versatility the
+              platform allows us to tailor surveys to our specific needs, and
+              the response analytics are incredibly insightful. Queri empowers
+              us to make informed decisions with confidence."
+            </p>
+          </td>
+          <td>
+            <p>
+              "Querify has truly revolutionized the way we gather insights. The
+              platform's user-friendly interface and robust features have
+              streamlined our surveying process. It's not just a tool; it's a
+              solution that adds value to our decision-making."
+            </p>
+          </td>
+          <td>
+            <p>
+              "What sets Querify apart is its ability to create engaging surveys
+              that keep respondents hooked. The variety of question types and
+              the intuitive design make the survey-taking experience enjoyable.
+              Plus, the detailed analytics help us draw valuable conclusions
+              from the responses received."
+            </p>
+          </td>
+        </tr>
+        <tr id="row3">
+          <td><div class="hr2"></div></td>
+          <td><div class="hr2"></div></td>
+          <td><div class="hr2"></div></td>
+        </tr>
+        <tr id="row4">
+          <td>
+            <div class="span_speaker"><img src="speakers/speaker1.png" /></div>
+          </td>
+          <td>
+            <div class="span_speaker"><img src="speakers/speaker2.png" /></div>
+          </td>
+          <td>
+            <div class="span_speaker"><img src="speakers/speaker3.png" /></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="part7_cont">
+      <div id="part7_left">
+        <h1>Tech Support at Querify: Your Partner in Excellence</h1>
+        <p>
+          Welcome to Querify's Tech Support hub – where excellence meets
+          assistance! Our commitment to delivering top-notch service extends
+          beyond our surveys; it encompasses every step of your journey with us.
+        </p>
+      </div>
+
+      <div id="part7_right">
+        <div><img src="img_tech_support.jpg" /></div>
+      </div>
+    </div>
+
+    <!--##########################################################################################-->
+
+    <div
+      id="hr3"
+      style="background: black; transform: translatey(-31rem)"
+    ></div>
+
+    <div id="footer">
+
+      <div class="footer_division" id="footer_part1">
+
+        <div id="footer_part1_1">
+          <div><img src="LOGO.png" /></div>
+          <span>Querify</span>
+        </div>
+
+        <p>Copyright c Sunrise Mentors Pvt. Ltd</p>
+      </div>
+
+      <div class="footer_division" id="footer_part2">
+        <div id="footer_part2_1">
+          <ul>
+            <li class="liMain"><b>Querify</b></li>
+            <li>About us</li>
+            <li>Careers</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Bug Bounty</li>
+            <li>Our Sources</li>
+            <li>Press Release</li>
+          </ul>
+        </div>
+
+        <div id="footer_part2_2">
+          <ul>
+            <li class="liMain"><b>COMMUNITY</b></li>
+            <li>Coding Ninjas Studio</li>
+            <li>Blog</li>
+            <li>Events</li>
+            <li>Affiliate</li>
+            <li>Cell</li>
+            
+          </ul>
+        </div>
+        
+      </div>
+
+      <div class="footer_division" id="footer_part3">
+        <p>FOLLOW US ON</p>
+        <div><span><a href="#"><i class="fa-brands fa-instagram fa-3x" style="color: #000000;"></i> </a></span> <span><a href="#"><i class="fa-brands fa-square-twitter fa-3x" style="color: #000000;"></i> </a></span><span> <a href="#">   <i class="fa-brands fa-square-facebook fa-3x" style="color: #000000;"></i>   </a></span></div>
+      </div>
+    </div>
+  </body>
 </html>
