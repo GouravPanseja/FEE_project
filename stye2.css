@@ -309,7 +309,7 @@ ul{
 
 #part3_img{
   width:25rem;
-  filter: drop-shadow(0.3125rem 0.3125rem 0.5rem grey);
+  filter: drop-shadow(0.9rem 2rem 0.8rem rgb(101, 101, 101));
   animation-name:part3_img;
   animation-duration: 2s;
   animation-timing-function: linear;
