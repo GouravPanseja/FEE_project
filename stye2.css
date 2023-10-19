@@ -33,6 +33,54 @@
 
   
 }
+
+.bot iframe{
+  width:500px;
+  height:400px;
+  background: white;
+  padding:5px;
+  box-shadow:5px 5px 10px rgb(128, 127, 127);
+}
+.bot{
+  position:fixed;
+  z-index:100;
+  right:0;
+  bottom:0;
+  transition:all 0.5s linear;
+
+}
+.bot-icon{
+  height:50px;
+  width:50px;
+  background: white;
+  border-radius: 50%;
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  cursor:pointer;
+  display:flex;
+  z-index:101;
+  filter: drop-shadow(0.2rem 0.5rem 0.8rem rgb(101, 101, 101));
+
+}
+
+.bot-icon i{
+  justify-content: center;
+  align-items: center;
+  transform: translatex(-50%);
+  transform: translatey(-50%);
+
+}
+.bot div{
+  position:absolute;
+  right:15px;
+  top:15px;
+  cursor:pointer
+}
+.bot > div > i{
+  color:white;
+}
+
 @keyframes typing{
   0%{width:0 }
 
@@ -855,4 +903,9 @@ margin-top:1.5rem;
 
 #part5_btn:hover{
   background: #298200;
+}
+
+
+.hidden{
+  display:none;
 }
